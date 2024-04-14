@@ -1,4 +1,4 @@
-# React + Vite
+# Nguyen Chi Cong Curriculum Vitae
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
