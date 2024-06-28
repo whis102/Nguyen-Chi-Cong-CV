@@ -1,5 +1,5 @@
-function Projects(){
-    return
+function Projects() {
+  return;
 }
 
-export default Projects
+export default Projects;
