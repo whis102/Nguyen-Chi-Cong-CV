@@ -1,0 +1,15 @@
+#my-project {
+  margin: 3em auto;
+  width: 80%;
+
+  .title {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
