@@ -27,13 +27,28 @@ export default function Project({
       </CardContent>
 
       <CardActions>
-        <Button size="small" href={source}>
+        <Button
+          size="small"
+          href={source}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Source
         </Button>
-        <Button size="small" href={live}>
+        <Button
+          size="small"
+          href={live}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Live
         </Button>
-        <Button size="small" href={read}>
+        <Button
+          size="small"
+          href={read}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Read More
         </Button>
       </CardActions>

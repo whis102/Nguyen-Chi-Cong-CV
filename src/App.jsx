@@ -13,7 +13,10 @@ function App() {
     <>
       <Header />
       <Banner />
-      <Section title={"My Projects"}>
+      <Section
+        title={"My Projects"}
+        description={"I finished something I improved myself."}
+      >
         <Project
           image={SkyEdge}
           title={"SkyEdge"}
