@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -25,7 +26,6 @@ export default function Project({
           {description}
         </Typography>
       </CardContent>
-
       <CardActions>
         <Button
           size="small"
@@ -55,3 +55,12 @@ export default function Project({
     </Card>
   );
 }
+
+Project.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  source: PropTypes.string.isRequired,
+  live: PropTypes.string.isRequired,
+  read: PropTypes.string,
+};

@@ -1,6 +1,8 @@
 #my-project {
   margin: 3em auto;
-  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
   .title,
   .des {
@@ -11,6 +13,6 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 30px;
   }
 }

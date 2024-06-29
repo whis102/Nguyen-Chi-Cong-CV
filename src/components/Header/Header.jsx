@@ -9,8 +9,6 @@ function Header() {
           <li className="nav-item">ABOUT</li>
           <li className="nav-item">SKILLS</li>
           <li className="nav-item">EXPERIENCES</li>
-          <li className="nav-item">EDUCATION</li>
-          <li className="nav-item">CERTIFICATES</li>
           <li className="nav-item">PROJECTS</li>
         </ul>
       </nav>
