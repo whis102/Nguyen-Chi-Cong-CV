@@ -9,6 +9,7 @@ import SkyList from "./assets/skylist.png";
 import SkyForecast from "./assets/skyforecast.png";
 import Exp from "./components/Exp/Exp";
 import Copyright from "./components/Copyright/Copyright";
+import Intro from "./components/Intro/Intro";
 
 function App() {
   return (
@@ -16,7 +17,11 @@ function App() {
       <Header />
       <Banner />
 
-      <Section title={"Experience"} description={"Get more details"}>
+      <Section title={"Introduction"} description={"Something that engage us"}>
+        <Intro />
+      </Section>
+
+      <Section title={"Experiences"} description={"Since 2016"}>
         <Exp />
       </Section>
 
