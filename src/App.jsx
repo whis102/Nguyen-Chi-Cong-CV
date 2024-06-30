@@ -19,15 +19,24 @@ function App() {
       <Header />
       <Banner />
 
-      <Section title={"Introduction"} description={"Something that engage us"}>
+      <Section
+        id={"about"}
+        title={"Introduction"}
+        description={"Something that engage us"}
+      >
         <Intro />
       </Section>
 
-      <Section title={"Experiences"} description={"Since 2016"}>
+      <Section
+        id={"experiences"}
+        title={"Experiences"}
+        description={"Since 2016"}
+      >
         <Exp />
       </Section>
 
       <Section
+        id={"projects"}
         title={"Projects"}
         description={"I finished something I improved."}
       >

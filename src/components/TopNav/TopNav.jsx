@@ -11,12 +11,22 @@ export default function TopNav() {
   return (
     <Box className="top-nav">
       <Stack direction={"row"} spacing={2} padding={1}>
-        <Link href="#" underline="none" color={"white"} className="info__link">
+        <Link
+          href="mailto:chicongnguyen.dev@gmail.com"
+          underline="none"
+          color={"white"}
+          className="info__link"
+        >
           <EmailIcon fontSize={"small"} />
           <p>chicongnguyen.dev@gmail.com</p>
         </Link>
 
-        <Link href="#" underline="none" color={"white"} className="info__link">
+        <Link
+          href="tel:0868936515"
+          underline="none"
+          color={"white"}
+          className="info__link"
+        >
           <PhoneIcon fontSize={"small"} />
           <p>0868936515</p>
         </Link>
