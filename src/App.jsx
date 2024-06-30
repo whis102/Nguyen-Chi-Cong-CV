@@ -3,17 +3,19 @@ import Banner from "./components/Banner/Banner";
 import Header from "./components/Header/Header";
 import Section from "./components/Section/Section";
 import Project from "./components/Project/Project";
+import Exp from "./components/Exp/Exp";
+import Copyright from "./components/Copyright/Copyright";
+import Intro from "./components/Intro/Intro";
+import TopNav from "./components/TopNav/TopNav";
 
 import SkyEdge from "./assets/skyedge.png";
 import SkyList from "./assets/skylist.png";
 import SkyForecast from "./assets/skyforecast.png";
-import Exp from "./components/Exp/Exp";
-import Copyright from "./components/Copyright/Copyright";
-import Intro from "./components/Intro/Intro";
 
 function App() {
   return (
     <>
+      <TopNav />
       <Header />
       <Banner />
 

@@ -1,0 +1,15 @@
+.top-nav {
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5em;
+
+  .info__link {
+    display: flex;
+    align-items: center;
+
+    p {
+      padding: 0 6px;
+    }
+  }
+}
