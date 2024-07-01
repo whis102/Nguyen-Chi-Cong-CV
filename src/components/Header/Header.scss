@@ -1,13 +1,20 @@
-.header {
-  background-color: white;
-  padding: 10px 20px 10px 0;
-}
-
 .nav-bar {
-  background: transparent !important;
-  display: flex;
+  padding: 10px 30px 10px 0px;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
   justify-content: flex-end;
   align-items: center;
+  transition: background-color 0.3s, color 0.3s, display 0.3s;
+}
+
+.nav-bar.scrolled {
+  display: flex;
+  // background-color: rgb(111, 155, 23);
+  background-color: #212529;
 }
 
 .nav-list {
@@ -31,5 +38,12 @@
 
 .nav-link {
   text-decoration: none !important;
-  color: black !important;
+}
+
+.nav-bar .nav-link {
+  color: white !important;
+}
+
+.nav-bar.scrolled .nav-link {
+  color: white !important;
 }
